@@ -12,5 +12,6 @@ class Plugin implements PluginEntryPointInterface
         $psalm->addStubFile(__DIR__ . '/stubs/ContainerBuilder.php');
         $psalm->addStubFile(__DIR__ . '/stubs/FormView.php');
         $psalm->addStubFile(__DIR__ . '/stubs/ParameterBag.php');
+        $psalm->addStubFile(__DIR__ . '/stubs/ConstraintViolationListInterface.php');
     }
 }
